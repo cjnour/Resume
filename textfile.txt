@@ -1,0 +1,207 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & {\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Huge \scshape Brandon Ko} \\ \vspace{1pt}
+    \small +1-226-926-2794 $|$ \href{mailto:x@xcom}{brandon.ko@uwaterloo.ca} $|$ 
+    \href{https://linkedin.com/in/x}{www.linkedin.com/in/taewoo-brandon-ko} 
+\end{center}
+
+
+%-----------EDUCATION-----------
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Skills}{: Structured Text, Ladder Diagram, C++, C, Python, GIT, Swift, SolidWorks, AutoCAD, MATLAB, Arduino,\\ \hspace{11mm} RaspberryPI, Jira, Excel, Microsoft 365, Firebase, Google Cloud}\\
+     \textbf{Special Interests}{: Cello, Piano, 3D Printing, Skiing, Cycling, TaeKwonDo}
+    }}
+ \end{itemize}
+%-----------Professional Experience-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Tesla}{January 2022 - Present}
+      {Manufacturing Engineer Intern}{January 2024 – Present}
+      \resumeItemListStart
+        \resumeItem{Developed innovative manufacturing equipment and processes from proof of concept through to full scale production to enable improved battery performance and reduce manufacturing costs.}
+        \resumeItem{Facilitated \textbf{Design of Experiments} and executed test plans to determine the performance degradation of an actuator over time. This was achieved by organizing mechanical assembly, developing software controls and post-processing scripts, and integrating electrical components.}
+      \resumeItemListEnd
+
+    \resumeSubSubheading
+      {Controls Software Automation Engineer Intern}{September 2023 – December 2023}
+      \resumeItemListStart
+        \resumeItem{Supported the commissioning of 3 next-generation cell manufacturing machines by verifying I/O, safety functionality, resolving bugs, and conducting factory acceptance tests.}
+        \resumeItem{Designed a sensor module to detect misaligned and foreign objects before feeding into a machine, reducing infeed alignment related crashes by \textbf{99\%} and saving over \textbf{\$600,000} per potential crash.}
+        \resumeItem{Lead the development of an \textbf{RFID}-based tool monitoring system to track service history, collect data related to tool lifespan, and minimize the risk of human error during maintenance.}
+      \resumeItemListEnd
+
+    \resumeSubSubheading
+      {Controls Software Automation Engineer Intern}{January 2023 – April 2023}
+      \resumeItemListStart
+        \resumeItem{Developed automation controls using \textbf{TwinCAT3} for multiple proof of principle projects to improve and validate next-generation cell manufacturing processes.}
+        \resumeItem{Remodeled and implemented PLC code to report machine states over \textbf{OPC-UA}. Resolved a long-time absence of machine state reporting across 3 production lines, thus improving insights on bottlenecks and accuracy of \textbf{OEE}.}
+        \resumeItem{Employed object-oriented programming principles by creating a self-programming base function block for all \textbf{IO-Link} devices, reducing development times by up to \textbf{60\%}.}
+      \resumeItemListEnd
+      
+    \resumeSubSubheading
+      {Technical Project Manager Intern}{January 2022 - August 2022}
+      \resumeItemListStart
+        \resumeItem{Coordinated assembly and developments for 6 multimillion-dollar machines to provide high quality automation solutions for multiple cell manufacturing production lines internationally.}
+        \resumeItem{Created an enhanced shipping strategy to conform with international logistical restrictions to save \textbf{\$10,000+} in logistics related expenses, and reduce unnecessary customs delays.}
+        \resumeItem{Drove supply chain management with internal manufacturing resources and \textbf{10+} external vendors to expedite lead times by up to 2 weeks.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Multimatic Dynamic Suspensions}{May 2021 – August 2021}
+      {Test Lab Technician}{}
+      \resumeItemListStart
+        \resumeItem{Efficiently conducted and set up fatigue, elasticity, and torque tests for several suspension systems including unique customer requests from various automotive OEMs.}
+        \resumeItem{Operated and maintained an \textbf{INSTRON} tension and compression machine to provide accurate elasticity measurements for vehicle ball joints and control arms.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+      %\resumeSubheading
+      %{Halcyon}{2021}
+      %{University of Waterloo}{}
+      %\resumeItemListStart
+        %\resumeItem{Directed the development of an analysis app capable of finding trends in user happiness, productivity, energy, and creativity by utilizing data from user inputs and \textbf{Apple HealthKit} API.}
+        %\resumeItem{Efficiently designed UI in \textbf{Swift} and integrated several services including \textbf{Firebase} and \textbf{Google Cloud} during a 48hr period.}
+      %\resumeItemListEnd
+      
+      \resumeSubheading
+      {ARM Cortex M3 RTOS}{2022}
+      {University of Waterloo}{}
+      \resumeItemListStart
+        \resumeItem{Developed a real-time operating system implemented on an \textbf{ARM Cortex M3} microcontroller in \textbf{C}.}
+        \resumeItem{Created a scheduler to evaluate task priority, and live runtimes to queue  appropriate tasks based on user definition.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+%
+
+ %-----------Education-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Candidate for Bachelor of Applied Science}{2020 - Present}
+      {University of Waterloo}{Waterloo, ON}
+          \resumeItemListStart
+            \resumeItem{3B Mechatronics Engineering, Co-op}
+            \resumeItem{\textbf{Relevant Coursework:} Fluid Mechanics 1, Engineering Economics, Electromechanical Machine Design, Automatic Control Systems, and Design Workshop.}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+
+
+\end{document}

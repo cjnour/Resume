@@ -1,0 +1,202 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & {\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Charbel Junior Nour} \\ \vspace{1pt}
+    \small (647) 949-5701 $|$ 
+    \href{https://linkedin.com/in/cjnour}{linkedin.com/in/cjnour} $|$ \href{https://cjnour.com}{cjnour.com} $|$ \href{mailto:charbeljrnour@gmail.com}{charbeljrnour@gmail.com} 
+\end{center}
+
+
+%-----------TECHNICAL SKILLS-----------
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Skills}{: JavaScript, React.js, Java, C++, Python, Ruby, Git, AWS, Arduino, RaspberryPI, Beckhoff TwinCAT3, PLC Programming, Control Systems, Structured Text, MATLAB, Simulink, Autodesk Inventor, Jira, Microsoft 365}\\
+      \textbf{Special Interests}{: Guitar, Music Production, 3D Printing, Basketball, Skiing, Cycling, Running}
+    }}
+ \end{itemize}
+
+
+%-----------Professional Experience-----------
+
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Tesla}{}
+      {Controls Engineer Intern}{Jan. 2024 – May 2024}
+      \resumeItemListStart
+        \resumeItem{Spearheaded the development of an \textbf{RFID}-based tool monitoring system that aims to \textbf{reduce} tooling maintenance issues by \textbf{over 90\%}. Integrated \textbf{PLC logic} and started the development of a \textbf{custom HMI} to track service history and collect tooling lifespan data on \textbf{multiple Gigafactory assembly lines}.}        
+        \resumeItem{Supported the commissioning of 3 \textbf{automation} machines by leveraging \textbf{TwinCAT3 PLC} and \textbf{Safety PLC logic} for critical components, including \textbf{VFDs}, \textbf{IPCs}, various sensors, and roboticand pneumatic devices.}
+        \resumeItem{Contributed to multiple \textbf{R\&D} initiatives by testing with \textbf{time-of-flight lasers} and \textbf{profilometers} with an aim to \textbf{solve critical engineering challenges} to enhance machine performance in production environments.}
+      \resumeItemListEnd
+
+    \resumeSubSubheading
+      {Material Planner Intern}{Sep. 2023 – Dec. 2023}
+      \resumeItemListStart
+        \resumeItem{Developed and maintained 3 internal tools that streamlines the part reordering process through analysis of kitting history, conducting comprehensive \textbf{gap analyses}, and employing advanced \textbf{Excel VBA} techniques with existing company inventory – resulting in a significantly efficient database.}
+        \resumeItem{Utilized these tools to build a software analysis team that focuses on the automation and standardization of many daily processes, resulting in a \textbf{reduction of duplicate shipments by 100\%}.}
+        \resumeItem{Facilitated international shipments, expedited missing parts, and streamlined kitting to \textbf{reduce technician downtime by 20\%}, ensuring efficient workflows across Gigafactories and optimizing daily resource allocation.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Moneris}{}
+      {Software Engineer Intern}{Jun. 2022 - Apr. 2023}
+      \resumeItemListStart
+        \resumeItem{Developed and sustained an internal tool that increases productivity for \textbf{30+ employees}. The tool displays VISA, MasterCard, and AMEX transaction analytics by using \textbf{JavaScript} and \textbf{React} hooks to build a responsive and compatible UI that can manage dashboards, widgets, and layout customization.}
+        \resumeItem{Improved code efficiency by \textbf{50\%} by implementing \textbf{Redux} and a backend system hosted by \textbf{Parse} to reduce boilerplate, implement reducers, utilize dispatch, and \textbf{query user database} properties.}
+        \resumeItem{Collaborated with the QA team in semi-weekly \textbf{agile} feedback sessions to identify and address platform issues, enhancing the reliability of a proprietary testing tool for payment platform evaluations.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+
+\section{Projects}
+  \resumeSubHeadingListStart
+      \resumeProjectHeading
+      {Smart Curtain System}{}
+      \resumeItemListStart
+        \resumeItem{Created a solution for sleep deprivation by designing an automated curtain. The app was coded in \textbf{React Native} and the backend is hosted on \textbf{AWS IoT} to store data for alarm functions and automated sunrise/sunset control.}
+        \resumeItem{Implemented \textbf{C++} code to contact backend server and control the stepper motor to roll up/down the curtain.}
+      \resumeItemListEnd
+      
+      \resumeProjectHeading
+      {Autonomous RC Car}{}
+      \resumeItemListStart
+        \resumeItem{Implemented self-driving algorithms coded in \textbf{C++ and Python} on an RC car to navigate through obstacles via \textbf{LiDAR} data processed through a \textbf{NVIDIA Jetson Nano} running on \textbf{Linux Ubuntu}.}
+        \resumeItem{Coordinated meetings to discuss progress and to troubleshoot any development and testing issues.}
+      \resumeItemListEnd
+
+      \resumeProjectHeading
+      {Wireless Dog Doorbell System}{}
+      \resumeItemListStart
+        \resumeItem{Designed an affordable wireless doorbell system enabling puppies to alert owners when they need to go outside, aiding in effective potty training.}
+        \resumeItem{Built a \textbf{React Native} interface to provide real-time alerts to owners regarding their puppy’s needs.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {B. Eng., Electrical Engineering}{Expected Apr. 2025}
+      {McMaster University}{Hamilton, ON}
+          \resumeItemListStart
+            % \resumeItem{\textbf{Relevant Coursework:} Control Systems, Power Systems, Power Electronics, Electronic Devices \& Circuits I \& II, Energy Conversion, Electromagnetics I \& II, Smart \& Micro Grids, Electric Motor Drives}
+            \resumeItem{\textbf{Relevant Coursework:} Data Structures \& Algorithms, Computer Architecture, High Performance Programming, Principles of Programming, Microprocessor Systems, Signals \& Systems, Logic Design, Control Systems, Intro to Mechatronics, Power Electronics, Electric Motor Drives, Electromagnetics I \& II, Electric Devices \& Circuits}
+            \resumeItem{\textbf{Extracurriculars:} General Motors EcoCar Challenge PCM Team Member, GDSC 2023 Incubator Challenge}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\end{document}
