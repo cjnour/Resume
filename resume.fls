@@ -1,6 +1,6 @@
-PWD c:\Users\Charb\OneDrive - McMaster University\Career\ResumeLatex
+PWD c:\Users\Charb\OneDrive - McMaster University\Career\ResumeLatex\Resume
 INPUT C:\Users\Charb\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Charb\OneDrive - McMaster University\Career\ResumeLatex\resume.tex
+INPUT c:\Users\Charb\OneDrive - McMaster University\Career\ResumeLatex\Resume\resume.tex
 OUTPUT resume.log
 INPUT C:\Users\Charb\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Charb\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -158,6 +158,7 @@ INPUT C:\Users\Charb\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\
 INPUT C:\Users\Charb\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy6.tfm
 INPUT C:\Users\Charb\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\Charb\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\Charb\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Charb\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT resume.aux
 INPUT .\resume.out
