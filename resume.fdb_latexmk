@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1737424065.16759 "c:/Users/Charb/OneDrive - McMaster University/Career/ResumeLatex/Resume/resume.tex" "resume.pdf" "resume" 1737424066.3329 0
+["pdflatex"] 1737427070.96847 "c:/Users/Charb/OneDrive - McMaster University/Career/ResumeLatex/Resume/resume.tex" "resume.pdf" "resume" 1737427072.18762 0
   "C:/Users/Charb/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1732592533 82535 0266753fb37a3d673c1d739765ad059f ""
   "C:/Users/Charb/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1729476098 11948279 73a8b73a29a2a29eb625ca58e1173dbe ""
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -9,7 +9,6 @@
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm" 1136765053 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
-  "C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr6.tfm" 1136765053 1300 b62933e007d01cfd073f79b963c01526 ""
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr8.tfm" 1136765053 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
@@ -83,10 +82,10 @@
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1718356376 7243 e5dac1240636811edb77568b81818372 ""
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1718356376 7532 d2e1111e17bfebb1607d8ffa779705ec ""
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Charb/OneDrive - McMaster University/Career/ResumeLatex/Resume/resume.tex" 1737424064 11183 c4f3ea7f87109b577b96f8f7b6203f1d ""
-  "resume.aux" 1737424066 837 b9084b872e4c07d0459404489f7ce427 "pdflatex"
-  "resume.out" 1737424066 581 5344270cb24ce5d117bfc27a66e7c37f "pdflatex"
-  "resume.tex" 1737424064 11183 c4f3ea7f87109b577b96f8f7b6203f1d ""
+  "c:/Users/Charb/OneDrive - McMaster University/Career/ResumeLatex/Resume/resume.tex" 1737427069 12109 36d1f051707b51f73304aee33646a432 ""
+  "resume.aux" 1737427071 837 1ca98986de044d9e2ba3d8461c87a401 "pdflatex"
+  "resume.out" 1737427071 581 524ec1a9f094a02fd16afce5555c9621 "pdflatex"
+  "resume.tex" 1737427069 12109 36d1f051707b51f73304aee33646a432 ""
   (generated)
   "resume.aux"
   "resume.log"

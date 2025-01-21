@@ -1,11 +1,4 @@
-%-------------------------
-% Resume in Latex
-% Author : Sidratul Muntaha Ahmed
-% License : MIT
-%------------------------
-
 \documentclass[letterpaper,11pt]{article}
-
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -59,7 +52,6 @@
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
 
-%-------------------------
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
@@ -98,8 +90,6 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-
-
 %-------RESUME STARTS HERE------
 
 \begin{document}
@@ -117,7 +107,7 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-      \textbf{Skills}{: JavaScript, React.js, Java, C++, Python, Ruby, Git, AWS, Arduino, RaspberryPI, Beckhoff TwinCAT3, PLC Programming, Control Systems, Structured Text, MATLAB, Simulink, Autodesk Inventor, Jira, Microsoft 365}\\
+      \textbf{Skills}{: Beckhoff TwinCAT3, PLC Programming, Control Systems, Structured Text, JavaScript, React.js, C++, Python, Java, Git, AWS, Arduino, RaspberryPI, MATLAB, Simulink, Autodesk Inventor, Jira, Microsoft 365}\\
       \textbf{Special Interests}{: Guitar, Music Production, 3D Printing, Basketball, Skiing, Cycling, Running}
     }}
  \end{itemize}
@@ -141,10 +131,18 @@
         \resumeItem{Developed and maintained 3 internal tools that streamlines the part reordering process through analysis of kitting history, conducting comprehensive \textbf{gap analyses}, and employing advanced \textbf{Excel VBA} techniques with existing company inventory – resulting in a significantly efficient database.}
         \resumeItem{Utilized these tools to build a software analysis team that focuses on the automation and standardization of many daily processes, resulting in a \textbf{reduction of duplicate shipments by 100\%}.}
         \resumeItem{Facilitated international shipments, expedited missing parts, and streamlined kitting to \textbf{reduce technician downtime by 20\%}, ensuring efficient workflows across Gigafactories and optimizing daily resource allocation.}
+      \resumeItemListEnd\
+
+      \resumeSubheading
+      {Moneris}{}
+      {Technology Governance Intern}{May 2023 – Aug. 2023}
+      \resumeItemListStart
+        \resumeItem{Optimized the internal application database, \textbf{reducing its size by over 50\%} through \textbf{cost center analysis}, a detailed \textbf{general ledger audit}, and advanced deduplication techniques within \textbf{Excel}. Developed \textbf{standard operating procedures (SOPs)} to maintain database efficiency and ensure consistent future updates.}
+        \resumeItem{Completed data collection and validation by collaborating \textbf{cross-functionally} with teams and consulting with employees across departments, ensuring the database was accurate, comprehensive, and up-to-date.}
+        \resumeItem{Enhanced internal compliance and governance practices by adhering the application inventory with corporate standards, improving transparency and accessability for future audits.}
       \resumeItemListEnd
       
-    \resumeSubheading
-      {Moneris}{}
+    \resumeSubSubheading
       {Software Engineer Intern}{Jun. 2022 - Apr. 2023}
       \resumeItemListStart
         \resumeItem{Developed and sustained an internal tool that increases productivity for \textbf{30+ employees}. The tool displays VISA, MasterCard, and AMEX transaction analytics by using \textbf{JavaScript} and \textbf{React} hooks to build a responsive and compatible UI that can manage dashboards, widgets, and layout customization.}
@@ -153,10 +151,31 @@
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
+%-----------EDUCATION-----------
+
+\section{Extracurriculars}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {McMaster EcoCar EV Challenge}{}
+      {Propulsion Controls and Modeling Team Member}{2024 - Present}
+          \resumeItemListStart
+            \resumeItem{\textbf{Modelling control systems} in \textbf{Simulink} for a Cadillac Lyriq EV through the use of documentation provided by \textbf{General Motors}, ensuring precise alignment with vehicle specifications and our team's performance goals.}
+            \resumeItem{\textbf{Testing and validating control system requirements} using \textbf{Simulink}, ensuring compliance with benchmarks and functionality standards outlined by the competition organizers to achieve an \textbf{enhanced propulsion system}.}
+            \resumeItem{Developing \textbf{energy-efficient} and \textbf{customer-focused control features} as part of a competition sponsored by the \textbf{US Department of Energy} and \textbf{General Motors} involving 13 universities across North America.}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
 %-----------PROJECTS-----------
 
 \section{Projects}
   \resumeSubHeadingListStart
+      \resumeProjectHeading
+      {Autonomous Defense Drone System}{}
+      \resumeItemListStart
+        \resumeItem{Developing an autonomous defense drone system to secure airspace by detecting, tracking, and intercepting unauthorized drones. The system integrates \textbf{multi-camera detection} and an autonomous drone to provide a solution to drone-related threats.}
+        \resumeItem{Utilizing \textbf{RF Tx/Rx} modules to enable communication between the camera hub system and the drones. Implementing \textbf{YOLOv8}, an \textbf{AI camera}, and \textbf{control algorithms} in \textbf{Python} to command the motors and autonomously track, pursue, and intercept unauthorized drones.}
+      \resumeItemListEnd
+
       \resumeProjectHeading
       {Smart Curtain System}{}
       \resumeItemListStart
@@ -177,28 +196,7 @@
         \resumeItem{Designed and developed an \textbf{affordable wireless doorbell system} with an \textbf{Arduino Uno}, enabling dogs to alert owners when they need to go outside, facilitating effective potty training through dog-to-human communication.}
         \resumeItem{Built a mobile app using \textbf{React Native} to send real-time push notifications to owners, ultimately enhancing communication and improving the effectiveness of the training process.}
       \resumeItemListEnd
-
-      \resumeProjectHeading
-      {Wireless Dog Doorbell System}{}
-      \resumeItemListStart
-        \resumeItem{Designed and developed an \textbf{affordable wireless doorbell system} with an \textbf{Arduino Uno}, enabling dogs to alert owners when they need to go outside, facilitating effective potty training through dog-to-human communication.}
-        \resumeItem{Built a mobile app using \textbf{React Native} to send real-time push notifications to owners, ultimately enhancing communication and improving the effectiveness of the training process.}
-      \resumeItemListEnd
     \resumeSubHeadingListEnd
-
-%-----------EDUCATION-----------
-
-\section{Extracurriculars}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {McMaster EcoCar EV Challenge}{}
-      {Propulsion Controls and Modeling Team Member}{2024 - Present}
-          \resumeItemListStart
-            \resumeItem{\textbf{Modelling control systems} in \textbf{Simulink} for a Cadillac Lyriq EV through the use of documentation provided by \textbf{General Motors}, ensuring precise alignment with vehicle specifications and our team's performance goals.}
-            \resumeItem{\textbf{Testing and validating control system requirements} using \textbf{Simulink}, ensuring compliance with benchmarks and functionality standards outlined by the competition organizers to achieve an \textbf{enhanced propulsion system}.}
-            \resumeItem{Developing \textbf{energy-efficient} and \textbf{customer-focused control features} as part of a competition sponsored by the \textbf{US Department of Energy} and \textbf{General Motors} involving 13 universities across North America.}
-        \resumeItemListEnd
-  \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------
 
@@ -210,7 +208,7 @@
           \resumeItemListStart
             % \resumeItem{\textbf{Relevant Coursework:} Control Systems, Power Systems, Power Electronics, Electronic Devices \& Circuits I \& II, Energy Conversion, Electromagnetics I \& II, Smart \& Micro Grids, Electric Motor Drives}
             \resumeItem{\textbf{Relevant Coursework:} Data Structures \& Algorithms, Computer Architecture, High Performance Programming, Principles of Programming, Microprocessor Systems, Signals \& Systems, Logic Design, Control Systems, Intro to Mechatronics, Power Electronics, Electric Motor Drives, Electromagnetics I \& II, Electric Devices \& Circuits}
-            \resumeItem{\textbf{Extracurriculars:} McMaster EcoCar Challenge PCM Team Member, GDSC 2023 Incubator Challenge}
+            \resumeItem{\textbf{Extracurriculars:} McMaster EcoCar EV Challenge PCM Team Member, GDSC 2023 Incubator Challenge}
         \resumeItemListEnd
   \resumeSubHeadingListEnd
 
