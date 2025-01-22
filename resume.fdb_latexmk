@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1737431447.57881 "c:/Users/Charb/OneDrive - McMaster University/Career/ResumeLatex/Resume/resume.tex" "resume.pdf" "resume" 1737431448.80789 0
+["pdflatex"] 1737513513.46675 "c:/Users/Charb/OneDrive - McMaster University/Career/ResumeLatex/Resume/resume.tex" "resume.pdf" "resume" 1737513514.66247 0
   "C:/Users/Charb/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1732592533 82535 0266753fb37a3d673c1d739765ad059f ""
   "C:/Users/Charb/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1729476098 11948279 73a8b73a29a2a29eb625ca58e1173dbe ""
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -82,10 +82,10 @@
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1718356376 7243 e5dac1240636811edb77568b81818372 ""
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1718356376 7532 d2e1111e17bfebb1607d8ffa779705ec ""
   "C:/Users/Charb/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Charb/OneDrive - McMaster University/Career/ResumeLatex/Resume/resume.tex" 1737431446 13322 7ad36e3f67b63d5adf48f06658c23790 ""
-  "resume.aux" 1737431448 944 6dc775893940e7295a0092b84ab62b71 "pdflatex"
-  "resume.out" 1737431448 674 4e2457b3003d068d184a283b28f8d221 "pdflatex"
-  "resume.tex" 1737431446 13322 7ad36e3f67b63d5adf48f06658c23790 ""
+  "c:/Users/Charb/OneDrive - McMaster University/Career/ResumeLatex/Resume/resume.tex" 1737513513 14168 489d6956dadbce9f38c97ea9b1c69fe1 ""
+  "resume.aux" 1737513514 944 6dc775893940e7295a0092b84ab62b71 "pdflatex"
+  "resume.out" 1737513514 674 4e2457b3003d068d184a283b28f8d221 "pdflatex"
+  "resume.tex" 1737513513 14168 489d6956dadbce9f38c97ea9b1c69fe1 ""
   (generated)
   "resume.aux"
   "resume.log"
