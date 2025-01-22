@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.20)  22 JAN 2025 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.20)  22 JAN 2025 14:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -397,25 +397,20 @@ Package hyperref Info: Link coloring OFF on input line 97.
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 102.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 103.
+(Font)              <7> on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 103.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 103.
-(C:\Users\Charb\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+(Font)              <5> on input line 104.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 104.
+ (C:\Users\Charb\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 160.
+(Font)              <10.95> on input line 166.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 160.
+(Font)              <8> on input line 166.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 160.
+(Font)              <6> on input line 166.
 
 
 
@@ -437,23 +432,19 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 365E244630E83C83CE244D8597D4AC89;732.
  ) 
 Here is how much of TeX's memory you used:
  11363 strings out of 473898
- 180558 string characters out of 5726478
- 623578 words of memory out of 5000000
- 34095 multiletter control sequences out of 15000+600000
- 564002 words of font info for 59 fonts, out of 8000000 for 9000
+ 180542 string characters out of 5726478
+ 623571 words of memory out of 5000000
+ 34094 multiletter control sequences out of 15000+600000
+ 564294 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,488b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Charb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 120830 bytes).
+ 75i,11n,79p,762b,558s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Charb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Charb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on resume.pdf (2 pages, 120002 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
