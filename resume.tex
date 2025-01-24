@@ -92,6 +92,10 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}}
 
+\newlength{\mylen}
+\setbox1=\hbox{$\bullet$}\setbox2=\hbox{\tiny$\bullet$}
+\setlength{\mylen}{\dimexpr0.5\ht1-0.5\ht2}
+
 %-------RESUME STARTS HERE------
 
 \begin{document}
@@ -107,23 +111,24 @@
 \vspace{-3pt}
 
 %-------TO-DO-----
-% Revise the professional summary, make it more cohesive, say that you are a New Grad with 2 years of experience in the automation and infrastructure industries.
-% Improve the spacing, make it more easy on the eyes
-% Reduce the technical skills, format it the way Mo has his
-% Move hobbies to the very bottom
-% Add another project
-% For Tech Gov., talk about retirement, usage, migrating to the cloud, merging licenses, cutting costs, familiarity with the IT world
+% --Revise the professional summary, make it more cohesive, say that you are a New Grad with 2 years of experience in the automation and infrastructure industries.
+% --Improve the spacing, make it more easy on the eyes
+% --Reduce the technical skills, format it the way Mo has his
+% --Move hobbies to the very bottom
+% --Add another project
+% --For Tech Gov., talk about retirement, usage, migrating to the cloud, merging licenses, cutting costs, familiarity with the IT world
 % 
 % SECOND MEETING
 % Keep chipping at it for one week, make sure you are happy with the content and you can talk about them.
-% Logistics, project, and vendor management. Have this other stuff to allow them to pivot to that to.
-% First point of Material Planner, reword "the resulting in a signficantly efficient database"
-% Built a business case to influence the executives, and proposed options for them to create a team, helped with the guidance
-% Come up with a number for the cost savings for Tech Governance
-% Feedback sessions with (QA, Architecture, Scrum Master) to identify issues (reword with GPT)
-% Don't use the word "documentation" for EcoCar, use the word "specifications" or something else
-% Play around with bolding the Section Headers
-% Look at this resume and think about what the next company you want on this to be.
+% --Logistics, project, and vendor management. Have this other stuff to allow them to pivot to that to.
+% --First point of Material Planner, reword "the resulting in a signficantly efficient database"
+% --Built a business case to influence the executives, and proposed options for them to create a team, helped with the guidance
+% --Come up with a number for the cost savings for Tech Governance
+% --Feedback sessions with (QA, Architecture, Scrum Master) to identify issues (reword with GPT)
+% --Don't use the word "documentation" for EcoCar, use the word "specifications" or something else
+% --Play around with bolding the Section Headers
+% --Look at this resume and think about what the next company you want on this to be
+% Make the Core Competencies nicer looking, reduce size of bullet points
 
 %-----------PROFESSIONAL SUMMARY-----------
 
@@ -131,42 +136,34 @@
 \vspace{5pt}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-      Motivated Electrical Engineering new graduate from McMaster University with 2 years of professional experience at Tesla and Moneris. Passionate about controls engineering and automation, with a proven ability to deliver innovative solutions -- ranging from industrial projects in autonomous systems to software-driven IoT solutions. Recognized for developing impactful, standardized designs and excelling in collaboration in cross-functional environments. Known for creativity, adaptability, and a results-driven mindset, I bring a blend of rich practical experience and fresh academic knowledge to solve complex challenges and drive meaningful outcomes.
+      Motivated Electrical Engineering new graduate from McMaster University with 2 years of professional experience at Tesla and Moneris. Passionate about controls engineering and automation, with a proven ability to deliver innovative solutions -- ranging from industrial projects in autonomous systems to software-driven IoT solutions. Recognized for developing impactful, standardized designs and excelling in collaboration in cross-functional environments. Known for creativity, adaptability, and a results-driven mindset, I bring a rich blend of valuable practical experience, interpersonal abilities, and fresh academic knowledge to solve complex challenges and drive meaningful outcomes.
     }}
  \end{itemize}
 
  \vspace{-2pt}
 
-%-----------TECHNICAL SKILLS-----------
+%-----------CORE COMPETENCIES-----------
 
 \section{Core Competencies}
+\setlength\columnsep{-10pt}
   \begin{multicols}{3}[\vspace{-7pt}]
-    \begin{itemize}[leftmargin=0.29in]
+    \renewcommand\labelitemi{\raisebox{\mylen}{\tiny$\bullet$}}
+    \begin{itemize}[leftmargin=0.48in, itemsep=0.6pt]
       \small
         \item Control Systems
         \item Project Management
         \item Vendor Management
         \item PLC Programming
         \item Beckhoff TwinCAT3
-        % \item Simulink
         \item Object-Oriented Programming
         \item Python
         \item Microprocessors
         \item Computer Aided Design (CAD)
-        % IDEA: Group coding languages as one point to save real-estate
+        % \item Simulink
     \end{itemize}
   \end{multicols}
 
 \vspace{-2pt}
-
-%  \begin{itemize}[leftmargin=0.15in, label={}]
-%     \small{\item{
-%       \textbf{Technical Skills}{: Beckhoff TwinCAT3, PLC Programming, Control Systems, Structured Text, JavaScript, React.js, C++, Python, Java, Git, AWS, Arduino, RaspberryPI, MATLAB, Simulink, Autodesk Inventor, Jira, Microsoft 365}\\
-%       %---way too busy of a column, trim down the fat here, coding languages
-%       %--remove special interests, maybe add hobbies at the very bottom
-%       %--look at Mo's format, Name is larger, more gaps, easier to digest
-%     }}
-%  \end{itemize}
 
 %-----------PROFESSIONAL EXPERIENCE-----------
 
@@ -175,11 +172,11 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Tesla}{}
-      {Controls Engineer Intern}{Jan. 2024 – May 2024}
+      {Manufacturing Controls Engineer Intern}{Jan. 2024 – May 2024}
       \resumeItemListStart
-        \resumeItem{Spearheaded the development of an \textbf{RFID}-based monitoring system that aims to \textbf{reduce} tooling maintenance issues by \textbf{over 90\%}. Integrated \textbf{PLC logic} and developed a \textbf{custom HMI dashboard} to track service history and collect tooling lifespan data on \textbf{multiple Gigafactory assembly lines}.}        
-        \resumeItem{Contributed to commissioning \textbf{3 automation} machines by leveraging \textbf{Beckhoff TwinCAT3 PLC} and \textbf{Safety PLC logic} to program critical components, including \textbf{VFDs}, \textbf{IPCs}, sensors, and robotic and pneumatic devices.}
-        \resumeItem{Led multiple \textbf{R\&D} initiatives with an aim to \textbf{solve critical engineering challenges} to enhance machine performance in production environments by experimenting with \textbf{time-of-flight lasers} and \textbf{profilometers}.}
+        \resumeItem{Spearheaded the development of an \textbf{RFID}-based monitoring system that aims to \textbf{reduce} tooling maintenance issues by \textbf{over 90\%}. Integrated \textbf{PLC logic} and developed a custom \textbf{TwinCAT HMI dashboard} to track service history and collect tooling lifespan data on \textbf{multiple Gigafactory assembly lines}.}        
+        \resumeItem{Contributed to commissioning \textbf{3 automation} machines by leveraging \textbf{Beckhoff TwinCAT3 Structured Text} to program critical components, including \textbf{VFDs}, sensors, and robotic and pneumatic devices. Debugged field I/O networks using multiple industrial communication protocols (\textbf{TCP/IP, EtherCAT, Profinet}).}
+        \resumeItem{Led multiple \textbf{R\&D} initiatives to solve critical engineering challenges to enhance \textbf{Beckhoff PLC} and \textbf{FANUC robot} performance by experimenting with \textbf{computer vision systems}, \textbf{time-of-flight lasers}, \textbf{profilometers}.}
       \resumeItemListEnd
 
       \vspace{3pt}
@@ -187,8 +184,8 @@
     \resumeSubSubheading
       {Material Planner Intern}{Sep. 2023 – Dec. 2023}
       \resumeItemListStart
-        \resumeItem{Developed and maintained 3 internal tools that streamlines the part reordering process through analysis of kitting history, conducting comprehensive \textbf{gap analyses}, and employing advanced \textbf{Excel VBA} techniques with existing company inventory – resulting in a significantly efficient database.}
-        \resumeItem{Utilized these tools to build a software analysis team that focuses on the automation and standardization of many daily processes, resulting in a \textbf{reduction of duplicate shipments by 100\%}.}
+        \resumeItem{Developed and sustained 3 \textbf{Excel VBA} tools to optimize inventory and logistics, \textbf{eliminating duplicate shipments by 100\%}. Automated the parts reordering process,  automated gap analyses for project needs, and streamlined shipping with auto-generated forms and emails - enhancing database operational efficiency.}
+        \resumeItem{Leveraged these tools to \textbf{identify inefficiencies} in the existing third-party inventory system and built a business case to influence executives to create an internal software team to develop an improved, proprietary system.}
         \resumeItem{Facilitated international shipments, expedited missing parts, and streamlined kitting to \textbf{reduce technician downtime by 20\%}, ensuring efficient workflows across Gigafactories and optimizing daily resource allocation.}
       \resumeItemListEnd\
 
@@ -196,9 +193,9 @@
       {Moneris}{}
       {Technology Governance Intern}{May 2023 – Aug. 2023}
       \resumeItemListStart
-        \resumeItem{Revamped the internal application database and cut its size \textbf{by over 50\%} through \textbf{cost center analysis} and a detailed \textbf{general ledger audit}. Coordinated the retirement of outdated applications and consolidated underutilized software licenses, resulting in \textbf{significant cost savings}.}
+        \resumeItem{Reduced the application database \textbf{by over 50\%} through \textbf{cost center analysis} and a detailed \textbf{general ledger audit}. Retired outdated applications and underutilized software licenses, resulting in \textbf{significant cost savings}.}
         \resumeItem{Orchestrated collaboration across departments to gather, validate, and standardize data for \textbf{cloud migration planning}, ensuring a seamless transition phase and enhancing application scalability.}
-        \resumeItem{Strengthened IT governance and compliance frameworks by aligning the application inventory with corporate standards to streamline software usage across teams, resulting in a reduction of licensing costs.}
+        \resumeItem{Strengthened IT governance and compliance frameworks by aligning the application inventory with corporate standards to streamline software usage across teams, resulting in a \textbf{reduction of licensing costs by over 30\%}.}
       \resumeItemListEnd
       
       \vspace{3pt}
@@ -206,9 +203,9 @@
     \resumeSubSubheading
       {Software Engineer Intern}{Jun. 2022 - Apr. 2023}
       \resumeItemListStart
-        \resumeItem{Developed and sustained an internal tool that increases productivity for \textbf{30+ employees}. The tool displays VISA, MasterCard, and AMEX transaction analytics by using \textbf{JavaScript} and \textbf{React} hooks to build a responsive and compatible UI that can manage dashboards, widgets, and layout customization.}
+        \resumeItem{Developed and sustained an internal tool that increases productivity for \textbf{30+ employees}. The tool displays VISA, MasterCard, and AMEX transaction analytics by using \textbf{JavaScript} and \textbf{React} hooks to build a responsive and compatible UI that allows users to manage dashboards, widgets, and customize layouts.}
         \resumeItem{Improved code efficiency by \textbf{50\%} by implementing \textbf{Redux} and a backend system hosted by \textbf{Parse} to reduce boilerplate, implement reducers, utilize dispatch, and \textbf{query user database} properties.}
-        \resumeItem{Collaborated with the QA team in semi-weekly \textbf{agile} feedback sessions to identify and address platform issues, enhancing the reliability of a proprietary testing tool for payment platform evaluations.}
+        \resumeItem{Collaborated in \textbf{agile} feedback sessions with the Scrum Master, QA team, Architecture team, and other stakeholders to identify and resolve platform issues related to our proprietary payment platform testing tool.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -220,7 +217,7 @@
       {Propulsion Controls and Modeling Team Member}{Sep. 2024 - Present}
           \resumeItemListStart
             \resumeItem{Developing \textbf{energy-efficient} and \textbf{customer-focused control features} as part of a competition sponsored by the \textbf{US Department of Energy} and \textbf{General Motors} involving 13 universities across North America.}
-            \resumeItem{\textbf{Modelling control systems} in \textbf{Simulink} for a Cadillac Lyriq EV through the use of documentation provided by \textbf{General Motors}, ensuring precise alignment with vehicle specifications and our team's performance goals.}
+            \resumeItem{\textbf{Modelling control systems} in \textbf{Simulink} and deriving model requirements for a Cadillac Lyriq EV, ensuring precise alignment with vehicle specifications as outlined by GM and our team's performance goals.}
             \resumeItem{\textbf{Testing and validating control system requirements} using \textbf{Simulink}, ensuring compliance with benchmarks and functionality standards outlined by the competition organizers to achieve an \textbf{enhanced propulsion system}.}
         \resumeItemListEnd
   \resumeSubHeadingListEnd
@@ -235,7 +232,7 @@
       \resumeProjectHeading
       {Autonomous Defense Drone System}{}
       \resumeItemListStart
-        \resumeItem{Developing an autonomous defense drone system to secure airspace by detecting, tracking, and intercepting unauthorized drones. The system integrates \textbf{multi-camera detection} and an autonomous drone to provide a solution to drone-related threats.}
+        \resumeItem{Developing an autonomous defense drone system to secure airspace by detecting, tracking, and intercepting unauthorized drones. The system integrates \textbf{multi-camera detection}, robotic arms designed in \textbf{CAD}, and an autonomous drone to provide a solution to drone-related threats.}
         \resumeItem{Utilizing \textbf{RF Tx/Rx} modules to enable communication between the camera hub system and the drones. Implementing \textbf{YOLOv8}, an \textbf{AI camera}, and \textbf{control algorithms} in \textbf{Python} to command the motors and autonomously track, pursue, and intercept unauthorized drones.}
       \resumeItemListEnd
 
@@ -244,8 +241,8 @@
       \resumeProjectHeading
       {Autonomous RC Car}{}
       \resumeItemListStart
-        \resumeItem{Implemented self-driving algorithms coded in \textbf{C++ and Python} on an RC car to navigate through obstacles via \textbf{LiDAR} data processed through a \textbf{NVIDIA Jetson Nano} running on \textbf{Linux Ubuntu}.}
-        \resumeItem{Coordinated \textbf{semi-weekly} agile team meetings to monitor progress, assign tasks, address challenges, and troubleshoot issues during development and testing phases.}
+        \resumeItem{Implemented self-driving algorithms coded in \textbf{C++ and Python} on an RC car to navigate through obstacles via \textbf{LiDAR} and \textbf{ultrasonic sensor} data processed through a \textbf{NVIDIA Jetson Nano} running on \textbf{Linux Ubuntu}.}
+        \resumeItem{Coordinated \textbf{agile} team meetings as the Scrum Master to monitor progress, assign tasks, address challenges, and troubleshoot issues during development and testing phases.}
       \resumeItemListEnd
 
       \vspace{3pt}
@@ -263,7 +260,7 @@
       {Wireless Dog Doorbell System}{}
       \resumeItemListStart
         \resumeItem{Designed and developed an \textbf{affordable wireless doorbell system} with an \textbf{Arduino Uno}, enabling dogs to alert owners when they need to go outside, facilitating effective potty training through dog-to-human communication.}
-        \resumeItem{Built a mobile app using \textbf{React Native} to send real-time push notifications to owners, ultimately enhancing communication and improving the effectiveness of the training process.}
+        \resumeItem{Built a mobile app using \textbf{React Native} to send real-time push notifications to owners, ultimately enhancing communication and improving the effectiveness of the puppy training process.}
       \resumeItemListEnd
     
     \vspace{3pt}
@@ -272,7 +269,7 @@
       {Automated Vanity System}{}
       \resumeItemListStart
         \resumeItem{Designed and fabricated a custom automated vanity system by 3D-modeling a recycled oil barrel in \textbf{Autodesk Inventor}. Cut and welded a panel from the barrel to a recycled chair and added wheels for smooth accessibility, and ensured the chair sat flush when retracted.}
-        \resumeItem{Engineered a motorized mirror and a Bluetooth sound system by wiring a recycled car window regulator motor to a rocker switch and a power supply with an \textbf{AC to DC rectifier}. Researched \textbf{torque-speed characteristics} and motor specifications to ensure the motor could support the load with enough power from the power supply.}
+        \resumeItem{Engineered a motorized mirror and a \textbf{Bluetooth} sound system by wiring a recycled car window regulator motor to a momentary rocker switch and a power supply with an \textbf{AC/DC rectifier}. Researched \textbf{torque-speed characteristics} and motor specifications to ensure the motor could support the load with the supplied power.}
       \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -288,9 +285,9 @@
       {McMaster University}{Hamilton, ON}
           \resumeItemListStart
             % \resumeItem{\textbf{Relevant Coursework:} Control Systems, Power Systems, Power Electronics, Electronic Devices \& Circuits I \& II, Energy Conversion, Electromagnetics I \& II, Smart \& Micro Grids, Electric Motor Drives}
-            \resumeItem{\textbf{Relevant Coursework:} Data Structures \& Algorithms, Computer Architecture, High Performance Programming, Principles of Programming, Microprocessor Systems, Signals \& Systems, Logic Design, Control Systems, Intro to Mechatronics, Power Electronics, Electric Motor Drives, Electromagnetics I \& II, Electric Devices \& Circuits}
+            \resumeItem{\textbf{Relevant Coursework:} Control Systems, Intro to Mechatronics, Power Electronics, Electric Motor Drives, Electromagnetics I \& II, Electric Devices \& Circuits, Data Structures \& Algorithms, Computer Architecture, High Performance Programming, Principles of Programming, Microprocessor Systems, Signals \& Systems, Logic Design}
             \resumeItem{\textbf{Extracurriculars:} McMaster EcoCar EV Challenge PCM Team Member, GDSC 2023 Incubator Challenge}
-            \resumeItem{\textbf{Special Interests:} Guitar, Music Production, 3D Printing, Basketball, Skiing, Cycling, Running}
+            \resumeItem{\textbf{Special Interests:} Guitar, Music Production, 3D-Printing, Basketball, Skiing, Cycling, Running}
         \resumeItemListEnd
   \resumeSubHeadingListEnd
 
