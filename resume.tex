@@ -1,6 +1,4 @@
 \documentclass[letterpaper,11pt]{article}
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
@@ -38,9 +36,7 @@
 
 % Custom commands
 \newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
+  \item {\small #1 \vspace{-2pt}}
 }
 
 \newcommand{\resumeSubheading}[4]{
@@ -65,8 +61,6 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
@@ -84,16 +78,25 @@
 
 %----------HEADING----------
 
-\begin{center}
-  \vspace{5pt}
-    \textbf{\Huge CJ Nour} \\ \vspace{0.1in}
-    \small (647) 949-5701 $|$ \href{https://www.cjnour.com}{cjnour.com} $|$ \href{https://linkedin.com/in/cjnour}{linkedin.com/in/cjnour} $|$ \href{mailto:charbeljrnour@gmail.com}{charbeljrnour@gmail.com}
-\end{center}
+% \begin{center}
+%   \vspace{5pt}
+%     \textbf{\Huge CJ Nour} \\ \vspace{0.1in}
+%     \small \href{https://www.cjnour.com}{cjnour.com} $|$ \href{https://linkedin.com/in/cjnour}{linkedin.com/in/cjnour} $|$ \href{mailto:charbeljrnour@gmail.com}{charbeljrnour@gmail.com} $|$ (647) 949-5701
+% \end{center}
+
+\noindent
+\begin{tabular*}{\textwidth}{@{} l @{\extracolsep{\fill}} r @{}}
+  \textbf{\Huge CJ Nour} & \textbf{Portfolio:} \href{https://www.cjnour.com}{cjnour.com} \\
+  Electrical Engineer residing in Etobicoke, Ontario
+& \textbf{Profile:} \href{https://linkedin.com/in/cjnour}{linkedin.com/in/cjnour} \\
+  &  \textbf{Email:} \href{mailto:charbeljrnour@gmail.com}{charbeljrnour@gmail.com}\\
+\end{tabular*}
+
 
 \vspace{-3pt}
 
 
-%-----------CORE COMPETENCIES-----------
+%-----------TECHNICAL SKILLS-----------
 
 \section{Technical Skills}
 \setlength\columnsep{-10pt}
@@ -151,7 +154,6 @@
         \resumeItem{Facilitated international shipments, expedited missing parts, and streamlined kitting to \textbf{reduce technician downtime by 20\%}, ensuring efficient workflows across Gigafactories and optimizing daily resource allocation.}
       \resumeItemListEnd\
 
-\section{Professional Experience Continued}
 
       \resumeSubheading
       {Moneris}{}
