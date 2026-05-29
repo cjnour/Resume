@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.18)  29 MAY 2026 00:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.18)  29 MAY 2026 00:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -403,28 +403,26 @@ Package hyperref Info: Link coloring OFF on input line 77.
 
 [1
 
-{C:/Users/cjthe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-[2] (resume.aux)
+{C:/Users/cjthe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (resume.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 60CB1BB940080047AF841CFC9C04CA21;405.
+(rerunfilecheck)             Checksum: 514BBED2CE687C0E8788DE13A322CD77;405.
  ) 
 Here is how much of TeX's memory you used:
- 11265 strings out of 473899
- 178417 string characters out of 5726499
- 622574 words of memory out of 5000000
- 34014 multiletter control sequences out of 15000+600000
- 563025 words of font info for 52 fonts, out of 8000000 for 9000
+ 11263 strings out of 473899
+ 178396 string characters out of 5726499
+ 621574 words of memory out of 5000000
+ 34013 multiletter control sequences out of 15000+600000
+ 562717 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,436b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,436b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/cjthe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/cjthe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/cjthe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/cjthe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/cjthe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cjthe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/cjthe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 112578 bytes).
+Output written on resume.pdf (1 page, 108867 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 66 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
