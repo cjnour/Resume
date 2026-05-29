@@ -55,9 +55,9 @@
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1}
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}{@{} l @{\extracolsep{\fill}} r @{}}
+      \textbf{#1} $|$ \textit{\small#2} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -134,45 +134,30 @@
 
 \resumeSubHeadingListEnd
 
-\vspace{-5pt}
+\vspace{-7pt}
 
 %-----------PROJECTS-----------
 
-\section{Projects}
-\vspace{5pt}
+\section{PROJECTS}
   \resumeSubHeadingListStart
       \resumeProjectHeading
-      {Autonomous Defense Drone System}{}
+      {Autonomous Defense Drone System}{skills}
       \resumeItemListStart
         \resumeItem{Developing an autonomous defense drone system to secure airspace by detecting, tracking, and intercepting unauthorized drones. The system integrates \textbf{multi-camera detection}, robotic arms designed in \textbf{CAD}, and an autonomous drone to provide a solution to drone-related threats.}
         \resumeItem{Utilizing \textbf{RF Tx/Rx} modules to enable communication between the camera hub system and the drones. Implementing \textbf{YOLOv8}, an \textbf{AI camera}, and \textbf{control algorithms} in \textbf{Python} to command the motors and autonomously track, pursue, and intercept unauthorized drones.}
       \resumeItemListEnd
 
-      \vspace{3pt}
-
       \resumeProjectHeading
-      {Autonomous RC Car}{}
+      {Autonomous RC Car}{skills}
       \resumeItemListStart
         \resumeItem{Implemented self-driving algorithms coded in \textbf{C++ and Python} on an RC car to navigate through obstacles via \textbf{LiDAR} and \textbf{ultrasonic sensor} data processed through a \textbf{NVIDIA Jetson Nano} running on \textbf{Linux Ubuntu}.}
         \resumeItem{Coordinated \textbf{agile} team meetings as the Scrum Master to monitor progress, assign tasks, address challenges, and troubleshoot issues during development and testing phases.}
       \resumeItemListEnd
-
-      \vspace{3pt}
-
-    \resumeProjectHeading
-      {Automated Vanity System}{}
-      \resumeItemListStart
-        \resumeItem{Designed and fabricated a custom automated vanity system from a recycled oil barrel. Cut and welded a panel from the barrel to a recycled chair and added wheels for smooth accessibility.}
-        \resumeItem{Engineered a motorized mirror and a \textbf{Bluetooth} sound system by wiring a recycled car window regulator motor to a momentary rocker switch and a power supply with an \textbf{AC/DC rectifier}. Researched \textbf{torque-speed characteristics} and motor specifications to ensure the motor could support the load with the supplied power.}
-      \resumeItemListEnd
     \resumeSubHeadingListEnd
-
-    \vspace{3pt}
 
 %-----------EDUCATION-----------
 
 \section{Education}
-\vspace{5pt}
   \resumeSubHeadingListStart
     \resumeSubheading
       {McMaster University}{B.Eng., Electrical Engineering}
