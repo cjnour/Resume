@@ -36,7 +36,7 @@
 
 % Custom commands
 \newcommand{\resumeItem}[1]{
-  \item {\small #1 \vspace{-3pt}}
+  \item { #1 \vspace{-3pt}}
 }
 
 \newcommand{\resumeSubheading}[5]{
@@ -79,7 +79,7 @@
 \setbox1=\hbox{$\bullet$}\setbox2=\hbox{\tiny$\bullet$}
 \setlength{\mylen}{\dimexpr0.5\ht1-0.5\ht2}
 
-\usepackage{mathptmx}
+\usepackage{mathptmx} % sets font to Times New Roman
 
 %-------RESUME STARTS HERE------
 
@@ -97,7 +97,7 @@
 \section{SKILLS}
 \begin{tabular*}{\textwidth}{@{} l @{\extracolsep{\fill}} r @{}}
   \textbf{Electrical:} EPLAN, PCB Design, Soldering, Servo Motor Control, PLC Programming \\
-  \textbf{Programming:} Java, React.js, Python, C++, Git, Linux \\
+  \textbf{Programming:} Java, React.js, Python, C++, IoT, Git, Linux \\
   \textbf{CAD:} NX, Autodesk Inventor, EPLAN, 3D Printing \& Prototyping \\
   \textbf{Analysis:} Excel, MATLAB/Simulink, Root Cause Analysis, Hardware-in-the-Loop Testing \\
 \end{tabular*}
@@ -115,30 +115,31 @@
       {Bolton, Ontario}
       \vspace{-5pt}
       \resumeItemListStart
-        \resumeItem{Engineered electrical cabinets for three next-generation prototypes of a market-leading machine using EPLAN and NX. Applied DFM/DFA principles to optimize safety circuits, and fuse and circuit breaker sizing to comply with UL 508A and EN standards.}
-        \resumeItem{Revamped a complex injection screw calculation tool to simulate injection molding profiles; integrated Power-Law viscosity models to calculate viscous dissipation and dynamically adjust for resin types, optimizing servo motor and drive sizing to save \$20 000 per machine across a major product line.}
-        \resumeItem{Conducted DC bus electrical load and spacing calculations to successfully retrofit a new servo drive to an existing cabinet; collaborated with vendors to validate cabinet thermal clearance and power overhead, preventing costly downtime.}
-        \resumeItem{Authored and published missing enterprise-level electrical assembly standards, directly resolving 8 out of 30 machine-build non-conformances and clearing critical cabinet release blockers to optimize production-floor DFA.}
+        \resumeItem{Engineered electrical cabinets for 3 next-generation prototypes of a best-selling machine using EPLAN and NX. Applied DFM/DFA principles to optimize safety circuits, and fuse / circuit breaker sizing to comply with UL 508A and EN standards.}
+        \resumeItem{Led a root-cause analysis to revamp a complex calculator that simulates injection molding profiles; integrated Power-Law viscosity models to calculate viscous dissipation, optimizing servo sizing to save \$20 000 across a product line.}
+        \resumeItem{Conducted DC bus electrical load calculations to successfully retrofit a new servo drive to an existing cabinet; collaborated with vendors to validate cabinet thermal clearance and power overhead, preventing costly downtime.}
+        \resumeItem{Authoured and published missing enterprise-level electrical assembly standards, directly resolving 60\% non-conformances and clearing critical cabinet release blockers to optimize production DFA.}
       \resumeItemListEnd
 
 
     \resumeSubheading
       {Tesla}{Controls Engineer Intern}
-      {Jan. -- May 2024}
+      {Jan. 2024 -- May 2024}
       {PLC Programming, RFID, DFM, DFA, HIL Testing, Git}
       {Markham, Ontario}
       \vspace{-5pt}
       \resumeItemListStart
-        \resumeItem{Spearheaded the development of an RFID-based monitoring system that reduced tooling maintenance issues by over 90\%. Integrated PLC logic and developed a custom TwinCAT HMI dashboard to track service history and collect tooling lifespan data on multiple Gigafactory assembly lines.}        
-        \resumeItem{Contributed to commissioning 3 automation machines by leveraging Beckhoff TwinCAT3 Structured Text to program critical components, including VFDs, sensors, FANUC robotic arms, and pneumatic devices. Debugged field I/O networks using multiple industrial communication protocols (TCP/IP, EtherCAT, Profinet).}
-        \resumeItem{Led multiple R\&D initiatives to solve critical engineering challenges to enhance Beckhoff PLC and FANUC robot performance by experimenting with computer vision systems, time-of-flight lasers, profilometers. Authoured test result reports and applied technical specifications to optimize device integration.}
+        \resumeItem{Spearheaded an RFID-based tooling monitoring system and custom TwinCAT HMI dashboard, tracking asset lifespan data to reduce maintenance issues by over 90\% across Gigafactory lines.}        
+        \resumeItem{Commissioned 3 automated production machines by leveraging Beckhoff TwinCAT3 Structured Text to program and synchronize VFDs, sensors, pneumatics, and FANUC robotic arms.}
+        \resumeItem{Debugged and optimized complex field I/O networks across factory automation equipment using multiple industrial protocols including TCP/IP, EtherCAT, and Profinet.}
+        \resumeItem{Led advanced R\&D initiatives experimenting with computer vision, time-of-flight lasers, and profilometers, authoring test reports to optimize high-performance device integration.}
       \resumeItemListEnd
 
 
       \resumeSubheading
       {Moneris}{Software Engineer Intern}
       {Jun. 2022 -- Aug. 2023}
-      {React.js, C++, Python, Git}
+      {React.js, C++, Python, Git, Agile}
       {Toronto, Ontario}
       \vspace{-5pt}
       \resumeItemListStart
@@ -175,6 +176,7 @@
 
 \section{EDUCATION}
   \resumeSubHeadingListStart
+    \vspace{3pt}
     \resumeEducationHeading
       {McMaster University}{B.Eng., Electrical Engineering}
       {Graduated Apr. 2025}

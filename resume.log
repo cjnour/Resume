@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.18)  2 JUN 2026 21:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.18)  2 JUN 2026 21:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -479,15 +479,15 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 514BBED2CE687C0E8788DE13A322CD77;405.
  ) 
 Here is how much of TeX's memory you used:
- 11477 strings out of 473899
- 182035 string characters out of 5726499
+ 11475 strings out of 473899
+ 182018 string characters out of 5726499
  623051 words of memory out of 5000000
- 34186 multiletter control sequences out of 15000+600000
- 585829 words of font info for 90 fonts, out of 8000000 for 9000
+ 34185 multiletter control sequences out of 15000+600000
+ 584244 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,474b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,409b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/cjthe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cjthe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/cjthe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/cjthe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on resume.pdf (1 page, 65941 bytes).
+Output written on resume.pdf (1 page, 65703 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
