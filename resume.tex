@@ -36,7 +36,7 @@
 
 % Custom commands
 \newcommand{\resumeItem}[1]{
-  \item {\small #1 \vspace{-5pt}}
+  \item {\small #1 \vspace{-3pt}}
 }
 
 \newcommand{\resumeSubheading}[5]{
@@ -61,6 +61,13 @@
     \end{tabular*}\vspace{-7pt}
 }
 
+\newcommand{\resumeEducationHeading}[3]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}{@{} l @{\extracolsep{\fill}} r @{}}
+      \textbf{#1} $|$ #2 & #3\\
+    \end{tabular*}\vspace{-7pt}
+}
+
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
@@ -71,6 +78,8 @@
 \newlength{\mylen}
 \setbox1=\hbox{$\bullet$}\setbox2=\hbox{\tiny$\bullet$}
 \setlength{\mylen}{\dimexpr0.5\ht1-0.5\ht2}
+
+\usepackage{mathptmx}
 
 %-------RESUME STARTS HERE------
 
@@ -97,35 +106,41 @@
 %-----------PROFESSIONAL EXPERIENCE-----------
 
 \section{PROFESSIONAL EXPERIENCE}
-\vspace{5pt}
+\vspace{2pt}
 \resumeSubHeadingListStart
   \resumeSubheading
       {Husky Technologies}{Electrical Engineer}
       {Jun. 2025 -- Present}
       {EPLAN, NX, Servo Motors, UL/EN, DFM, DFA, Root Cause Analysis}
       {Bolton, Ontario}
+      \vspace{-5pt}
       \resumeItemListStart
-        \resumeItem{Leading the electrical design of prototypes for a new machine generation. Creating schematics in EPLAN, CAD in Siemens NX, sizing cable assemblies, and validating grounding to UL 508A. Diagnosed and resolved a 9 year-old service issue related to Ethernet cable routing, cutting critical communications faults by 100\%.}
-        \resumeItem{Resolved 30+ non-conformances on a new machine family (UL \& EN builds; CE and non-CE cabinets). Corrected panel schematic errors critical to safety devices, fixed assembly drawing errors. Achieved full release compliance by eliminating 100\% of the machine's electrical cabinets release blockers.}
-        \resumeItem{Authoured and published three enterprise-level electrical standards to drive proactive refresh of data and reduce engineering errors. Presented to engineering leadership to secure adoption across disciplines to actively sustain a multi-million dollar per year business.}
+        \resumeItem{Engineered electrical cabinets for three next-generation prototypes of a market-leading machine using EPLAN and NX. Applied DFM/DFA principles to optimize safety circuits, and fuse and circuit breaker sizing to comply with UL 508A and EN standards.}
+        \resumeItem{Revamped a complex injection screw calculation tool to simulate injection molding profiles; integrated Power-Law viscosity models to calculate viscous dissipation and dynamically adjust for resin types, optimizing servo motor and drive sizing to save \$20 000 per machine across a major product line.}
+        \resumeItem{Conducted DC bus electrical load and spacing calculations to successfully retrofit a new servo drive to an existing cabinet; collaborated with vendors to validate cabinet thermal clearance and power overhead, preventing costly downtime.}
+        \resumeItem{Authored and published missing enterprise-level electrical assembly standards, directly resolving 8 out of 30 machine-build non-conformances and clearing critical cabinet release blockers to optimize production-floor DFA.}
       \resumeItemListEnd
+
 
     \resumeSubheading
       {Tesla}{Controls Engineer Intern}
       {Jan. -- May 2024}
       {PLC Programming, RFID, DFM, DFA, HIL Testing, Git}
       {Markham, Ontario}
+      \vspace{-5pt}
       \resumeItemListStart
-        \resumeItem{Spearheaded the development of an RFID-based monitoring system that aims to reduce tooling maintenance issues by over 90\%. Integrated PLC logic and developed a custom TwinCAT HMI dashboard to track service history and collect tooling lifespan data on multiple Gigafactory assembly lines.}        
-        \resumeItem{Contributed to commissioning 3 automation machines by leveraging Beckhoff TwinCAT3 Structured Text to program critical components, including VFDs, sensors, and robotic and pneumatic devices. Debugged field I/O networks using multiple industrial communication protocols (TCP/IP, EtherCAT, Profinet).}
+        \resumeItem{Spearheaded the development of an RFID-based monitoring system that reduced tooling maintenance issues by over 90\%. Integrated PLC logic and developed a custom TwinCAT HMI dashboard to track service history and collect tooling lifespan data on multiple Gigafactory assembly lines.}        
+        \resumeItem{Contributed to commissioning 3 automation machines by leveraging Beckhoff TwinCAT3 Structured Text to program critical components, including VFDs, sensors, FANUC robotic arms, and pneumatic devices. Debugged field I/O networks using multiple industrial communication protocols (TCP/IP, EtherCAT, Profinet).}
         \resumeItem{Led multiple R\&D initiatives to solve critical engineering challenges to enhance Beckhoff PLC and FANUC robot performance by experimenting with computer vision systems, time-of-flight lasers, profilometers. Authoured test result reports and applied technical specifications to optimize device integration.}
       \resumeItemListEnd
+
 
       \resumeSubheading
       {Moneris}{Software Engineer Intern}
       {Jun. 2022 -- Aug. 2023}
       {React.js, C++, Python, Git}
       {Toronto, Ontario}
+      \vspace{-5pt}
       \resumeItemListStart
         \resumeItem{Developed a tool boosting productivity for 30+ employees by enabling credit card transaction analytics. Built with JavaScript and React, the tool allows users to customize dashboards and manage widgets seamlessly.}
         \resumeItem{Improved code efficiency by 50\% by implementing Redux and a backend system hosted on Parse, optimizing personal and team tools by implementing reducers, utilizing dispatch, and querying user database properties.}
@@ -134,7 +149,7 @@
 
 \resumeSubHeadingListEnd
 
-\vspace{-7pt}
+\vspace{-1pt}
 
 %-----------PROJECTS-----------
 
@@ -144,7 +159,7 @@
       \resumeProjectHeading
       {Autonomous Defense Drone System}{Python, YOLOv8, CAD, RF Modules, Control Algorithms}
       \resumeItemListStart
-        \resumeItem{Developed an autonomous defense drone system integrating multi-camera YOLOv8 detection, CAD-designed robotic arms, and RF Tx/Rx modules using Python control algorithms to track and intercept unauthorized drone threats to secure airspace.}
+        \resumeItem{Integrated a custom YOLOv8 drone detection model across 2 cameras, CAD-designed robotic arms, and RF Tx/Rx modules using Python control algorithms to track and intercept unauthorized drone threats to secure airspace.}
       \resumeItemListEnd
 
       \resumeProjectHeading
@@ -154,17 +169,15 @@
       \resumeItemListEnd
     \resumeSubHeadingListEnd
 
-  \vspace{-4pt}
+  \vspace{-3pt}
 
 %-----------EDUCATION-----------
 
 \section{EDUCATION}
   \resumeSubHeadingListStart
-    \resumeSubheading
+    \resumeEducationHeading
       {McMaster University}{B.Eng., Electrical Engineering}
       {Graduated Apr. 2025}
-      {}
-      {}
   \resumeSubHeadingListEnd
 
 \end{document}
